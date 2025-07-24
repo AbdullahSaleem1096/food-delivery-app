@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_contact_infos",
+  "info": {
+    "displayName": "contact-info",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string",
+      "required": false,
+      "regex": "^\\+92[0-9]{10}$"
+    },
+    "email": {
+      "type": "email"
+    }
+  },
+  "config": {}
+}

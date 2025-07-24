@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_address_addresses",
+  "info": {
+    "displayName": "address-info",
+    "icon": "car"
+  },
+  "options": {},
+  "attributes": {
+    "city": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Lahore",
+        "Faisalabad",
+        "Islamabad",
+        "Multan",
+        "Peshawar",
+        "Karachi"
+      ]
+    },
+    "street": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}
