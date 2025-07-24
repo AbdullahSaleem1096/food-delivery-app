@@ -8,7 +8,7 @@ export default async (policyContext, config, {starpi})=>{
             user: user.id
         }
     })
-    if(restaurant){
+    if(restaurant.length > 0){
         throw new PolicyError('You cannot have more than one restaurant',{
             policy: 'single-restaurant-per-vendor',
             attemptedAt: new Date().toISOString()

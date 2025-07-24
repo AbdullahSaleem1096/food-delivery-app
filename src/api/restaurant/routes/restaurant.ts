@@ -10,8 +10,8 @@ export default {
     routes: [
         {
             method: 'POST',
-            path: '/restaurants',
-            handler: 'restaurant.create',
+            path: '/custom/restaurants',
+            handler: 'restaurant.createCustom',
             config: {
                 policies: ['single-restaurant-per-vendor']
             }

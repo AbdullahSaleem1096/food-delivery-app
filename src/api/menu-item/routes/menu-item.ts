@@ -28,12 +28,14 @@ export default {
       {
         method: 'GET',
         path: '/menu-items/vendor',
-        handler: 'menu-item.findVendor',
-        config: {
-          auth: {
-            scope: ['plugin::users-permissions.user.read']
-          }
-        },
+        //handler: 'menu-item.findVendor',
+        handler: 'menu-item.findVendor'
+      },
+      {
+        method: 'GET',
+        path: '/menu-items/example',
+        //handler: 'menu-item.findVendor',
+        handler: 'menu-item.exampleAction'
       },
     ]
   }
